@@ -20,7 +20,7 @@ chmod +x qt-opensource-linux-x64-5.11.3.run
 컴파일 하기전, 아치리눅스 기준 `fcitx5`, `cmake`, `extra-cmake-modules` 패키지가 필요합니다.<br>
 <br>
 
-그후 [fcitx5-qt](https://github.com/fcitx/fcitx5-qt) 레포를 clone해서 설치한 qt속 gcc로 컴파일합니다.
+그후 [fcitx5-qt](https://github.com/fcitx/fcitx5-qt) 레포를 clone해서 설치한 qt를 이용해 컴파일합니다
 
 ```bash
 git clone https://github.com/fcitx/fcitx5-qt.git
