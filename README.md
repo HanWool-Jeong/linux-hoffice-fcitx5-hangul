@@ -32,5 +32,4 @@ make -j VERBOSE=1
 그럼 `libfcitx5platforminputcontextplugin.so`가 생기는데 이걸 `/opt/hnc/hoffice11/Bin/qt/plugins/platforminputcontexts`에 넣어주면 끝!!
 
 ### 2022-12-21 수정
-새 아치리눅스를 깔고 단순히 `libfcitx5platforminputcontextplugin.so`를 `/opt/hnc/hoffice11/Bin/qt/plugins/platforminputcontexts`에 넣으니 잘 안되네요..
-직접 컴파일해서 넣으니 잘 됩니다. 직접 컴파일해서 써야겠습니다.
+새 아치리눅스를 깔고 단순히 `libfcitx5platforminputcontextplugin.so`를 `/opt/hnc/hoffice11/Bin/qt/plugins/platforminputcontexts`에 넣으니 잘 안되네요.. 직접 컴파일해서 넣으니 잘 됩니다. 직접 컴파일하는 과정에서 설치한 qt tool 때문인지, 직접 컴파일한 so파일에서만 작동하는지 잘 모르겠습니다. 어찌됐든 직접 컴파일해서 써야겠네요.
