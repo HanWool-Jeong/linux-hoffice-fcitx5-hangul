@@ -1,6 +1,6 @@
 # linux-hoffice-fcitx5-hangul
 리눅스 한컴오피스와 fcitx5 사용시 한글입력을 정상적으로 하기 위해 필요한 모듈입니다.<br>
-[libfcitx5platforminputcontextplugin.so](https://github.com/HanWool-Jeong/linux-hoffice-fcitx5-hangul/blob/main/libfcitx5platforminputcontextplugin.so)를 다운받아서 `/opt/hnc/hoffice11/Bin/qt/plugins/platforminputcontexts`에 넣어주면 됩니다.
+~~[libfcitx5platforminputcontextplugin.so](https://github.com/HanWool-Jeong/linux-hoffice-fcitx5-hangul/blob/main/libfcitx5platforminputcontextplugin.so)를 다운받아서 `/opt/hnc/hoffice11/Bin/qt/plugins/platforminputcontexts`에 넣어주면 됩니다.~~
 <br>
 
 ## 모듈 컴파일 방법
@@ -33,3 +33,6 @@ make -j VERBOSE=1
 
 ### 2022-12-21 수정
 새 아치리눅스를 깔고 단순히 `libfcitx5platforminputcontextplugin.so`를 `/opt/hnc/hoffice11/Bin/qt/plugins/platforminputcontexts`에 넣으니 잘 안되네요.. 직접 컴파일해서 넣으니 잘 됩니다. 직접 컴파일하는 과정에서 설치한 qt tool 때문인지, 직접 컴파일한 so파일에서만 작동하는지 잘 모르겠습니다. 어찌됐든 직접 컴파일해서 써야겠네요.
+
+### 2023-01-20 수정
+사용하기 위해서는 qt tool도 꼭 깔아줘야 작동하는 걸 확인했습니다!!
